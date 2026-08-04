@@ -13,9 +13,9 @@ This repository serves as my organized workspace for all course requirements, in
 
 ## 👤 Student Information
 
-- **Name:** NASH
+- **Name:** ash Khane E. Perez
 - **Course/Section:** BSIT 4I
-- **Instructor:** [Instructor's Name]
+- **Instructor:** MS.JENKIELYN TORRES
 - **School Year:** 2026–2027
 
 ## 📂 Repository Structure
