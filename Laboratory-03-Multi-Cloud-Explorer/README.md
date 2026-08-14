@@ -2,7 +2,7 @@
 
 ## Student Information
 
-- **Name:** ash Khane E. Perez
+- **Name:** Nash Khane E. Perez
 - **Course/Section:** BSIT 4I
 - **Instructor:** MS.JENKIELYN TORRES
 - **School Year:** 2026–2027
