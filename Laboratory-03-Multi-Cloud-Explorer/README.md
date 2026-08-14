@@ -138,3 +138,100 @@ The operating system was identified using:
 
 ```bash
 cat /etc/os-release
+```
+
+### CPU Information
+
+The CPU information was obtained using:
+
+```bash
+lscpu
+```
+
+The environment has:
+
+- **CPU:** Intel Xeon E312xx (Sandy Bridge, IBRS update)
+- **CPU(s):** 1
+- **Architecture:** x86_64
+- **Core(s) per socket:** 1
+- **Thread(s) per core:** 1
+- **CPU frequency:** 2.0 GHz
+- **Virtualization:** KVM
+
+### Memory Information
+
+The memory was checked using:
+
+```bash
+free -h
+```
+
+Results:
+
+- **Total Memory:** 1.9 GiB
+- **Used Memory:** 410 MiB
+- **Free Memory:** 873 MiB
+- **Available Memory:** 1.5 GiB
+- **Swap:** 1.0 GiB
+
+### Disk Space
+
+Disk space was checked using:
+
+```bash
+df -h
+```
+
+The main filesystem `/dev/vda1` has:
+
+- **Total:** 19 GB
+- **Used:** 5.4 GB
+- **Available:** 13 GB
+- **Usage:** 30%
+
+---
+
+# Part 5 – Cloud Hosting Options for Linux
+
+A Linux server can be hosted on all three major cloud platforms.
+
+| Cloud Provider | Cloud Service | Linux Hosting Example |
+|---|---|---|
+| AWS | Amazon EC2 | Ubuntu Linux virtual machine |
+| Microsoft Azure | Azure Virtual Machines | Ubuntu Server virtual machine |
+| Google Cloud Platform | Compute Engine | Ubuntu Linux virtual machine |
+
+### AWS
+
+Amazon EC2 can host a Linux virtual machine such as Ubuntu Server. It provides scalable computing resources for applications and workloads.
+
+### Microsoft Azure
+
+Azure Virtual Machines can host Linux operating systems such as Ubuntu Server. It is suitable for organizations that already use Microsoft Azure services.
+
+### Google Cloud Platform
+
+Google Compute Engine can create and run Linux virtual machines. It provides scalable computing resources for Linux-based applications.
+
+---
+
+# Part 6 – Key Findings
+
+The Linux environment used in this laboratory is running **Ubuntu 24.04.4 LTS** on an x86_64 architecture. It has one virtual CPU based on an Intel Xeon E312xx processor, approximately 1.9 GiB of memory, and a 19 GB main filesystem. The environment uses KVM virtualization.
+
+AWS, Microsoft Azure, and Google Cloud Platform can all host Linux servers through their virtual machine services. The appropriate platform depends on the organization's requirements, existing technologies, application workload, and preferred cloud services.
+
+---
+
+# Evidence
+
+The Linux system information was collected using the following commands:
+
+```bash
+cat /etc/os-release
+lscpu
+free -h
+df -h
+```
+
+Screenshots of the KillerCoda terminal output should be included as evidence for the laboratory activity.
