@@ -59,4 +59,22 @@ A Linux environment was launched through KillerCoda to examine basic server info
 The following command was used:
 
 ```bash
-cat /etc/os-release
+CPU Information
+
+The following command was used:
+
+lscpu
+Evidence
+
+Memory Information
+
+The following command was used:
+
+free -h
+Evidence
+
+Disk Space
+
+The following command was used:
+
+df -h
